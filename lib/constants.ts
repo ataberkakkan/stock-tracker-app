@@ -96,15 +96,12 @@ export const MARKET_OVERVIEW_WIDGET_CONFIG = {
 };
 
 export const HEATMAP_WIDGET_CONFIG = {
-  dataSource: "SPX500",
-  blockSize: "market_cap_basic",
-  blockColor: "change",
-  grouping: "sector",
-  isTransparent: true,
+  dataSource: "Crypto",
+  blockSize: "market_cap_calc",
+  blockColor: "24h_close_change|5",
   locale: "en",
   symbolUrl: "",
   colorTheme: "dark",
-  exchanges: [],
   hasTopBar: false,
   isDataSetEnabled: false,
   isZoomEnabled: true,
